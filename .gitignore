@@ -1,10 +1,31 @@
-# Ignore big files
+# --- Python virtual environments ---
+trafficenv/
+
+# --- Large files & model checkpoints ---
 *.zip
 *.tar.gz
 *.h5
 *.pkl
+*.pt
+*.ckpt
+
+# --- Dataset folders ---
+lisa_dataset/
+
+# --- Git filter-repo logs ---
 .git/filter-repo/
 
+# --- Jupyter notebook checkpoints ---
+.ipynb_checkpoints/
 
-# Ignore dataset folders
-lisa_dataset/
+# --- Python cache files ---
+__pycache__/
+*.py[cod]
+*.so
+
+# --- VSCode settings (optional) ---
+.vscode/
+
+# --- Logs and system files ---
+*.log
+.DS_Store
