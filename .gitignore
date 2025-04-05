@@ -2,6 +2,8 @@
 trafficenv/
 all-files.txt
 
+# Track sample dataset
+!lisa_sample/
 
 # --- Large files & model checkpoints ---
 *.zip
