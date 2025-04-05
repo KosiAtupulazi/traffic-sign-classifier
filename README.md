@@ -1,8 +1,8 @@
 # traffic-sign-classifier
 
-Author: Kosi Atupulazi
-Purpose: Learning ML Fundamentals
-Dataset: LISA Traffic Signs Dataset (Kaggle)
+1. Author: Kosi Atupulazi
+2. Purpose: Learning ML Fundamentals
+3. Dataset: LISA Traffic Signs Dataset (Kaggle)
 
 ## 🔐 Kaggle API Key
 
