@@ -1,5 +1,7 @@
 # --- Python virtual environments ---
 trafficenv/
+all-files.txt
+
 
 # --- Large files & model checkpoints ---
 *.zip
