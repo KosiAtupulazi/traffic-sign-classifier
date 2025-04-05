@@ -33,3 +33,6 @@ __pycache__/
 # --- Logs and system files ---
 *.log
 .DS_Store
+
+#---- remove kaggle for version control -----
+kaggle.json
