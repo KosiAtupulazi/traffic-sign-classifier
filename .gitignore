@@ -1,1 +1,10 @@
-venv/
+# Ignore big files
+*.zip
+*.tar.gz
+*.h5
+*.pkl
+.git/filter-repo/
+
+
+# Ignore dataset folders
+lisa_dataset/
