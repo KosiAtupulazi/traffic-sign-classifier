@@ -33,4 +33,4 @@ for img in train_images:
 for img in val_images:
     shutil.copy(img, os.path.join(val_dir, os.path.basename(img)))
 
-print(f"✅ Done! {len(train_images)} images in train/, {len(val_images)} in val/")
+print(f"Done! {len(train_images)} images in train/, {len(val_images)} in val/")
