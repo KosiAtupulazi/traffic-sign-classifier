@@ -15,6 +15,9 @@ all-files.txt
 
 # --- Dataset folders ---
 lisa_dataset/
+gtrsb_dataset/StopSign
+gtrsb_dataset/YieldSign
+
 
 # --- Git filter-repo logs ---
 .git/filter-repo/
