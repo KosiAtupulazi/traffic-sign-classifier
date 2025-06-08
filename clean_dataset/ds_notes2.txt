@@ -1,1 +1,1 @@
-Final dataset split into 70% train, 20% validation and 10% test
+Final dataset split into 70% train, 20% validation and 10% test 
