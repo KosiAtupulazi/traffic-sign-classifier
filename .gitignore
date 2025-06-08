@@ -17,6 +17,9 @@ all-files.txt
 lisa_dataset/
 gtrsb_dataset/StopSign
 gtrsb_dataset/YieldSign
+datasets/
+processed_dataset/
+raw_dataset/
 
 
 # --- Git filter-repo logs ---
