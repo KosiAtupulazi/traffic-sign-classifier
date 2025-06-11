@@ -1,0 +1,68 @@
+## 🚀 How to Run This App with Docker Compose
+
+### 🐋 Step 1: Install Docker Compose v2 (No `sudo` Required)
+
+If you're on Linux and don't have Docker Compose installed or can't use `sudo`, you can install it manually:
+
+```bash
+mkdir -p ~/.docker/cli-plugins
+curl -SL https://github.com/docker/compose/releases/download/v2.27.0/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
+chmod +x ~/.docker/cli-plugins/docker-compose
+```
+
+### ✅ Step 2: Verify Installation
+
+Check that Docker Compose is available:
+
+```bash
+docker compose version
+```
+
+You should see something like:
+
+```
+Docker Compose version v2.27.0
+```
+
+---
+
+### 📂 Step 3: Navigate to the Project Root
+
+Make sure you're in the root of the project (where `requirements.txt` is):
+
+```bash
+cd ~/personal_projects/traffic-sign-classifier-1
+```
+
+---
+
+### 🧱 Step 4: Build and Run the App
+
+```bash
+docker compose -f docker/docker-compose.yml up --build
+```
+
+This will:
+
+* Build both the **FastAPI** and **Streamlit** containers
+* Start them in sync
+* Set up internal networking so Streamlit can call FastAPI using `http://fastapi:8000`
+
+---
+
+### 🌐 Access the App
+
+| Service   | URL                                                      |
+| --------- | -------------------------------------------------------- |
+| FastAPI   | [http://localhost:8000/docs](http://localhost:8000/docs) |
+| Streamlit | [http://localhost:8501](http://localhost:8501)           |
+
+---
+
+### ⛔ To Stop the App
+
+Press `Ctrl+C` in the terminal, or run:
+
+```bash
+docker compose -f docker/docker-compose.yml down
+```
