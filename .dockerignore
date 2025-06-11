@@ -1,0 +1,47 @@
+# --- Python virtual environments ---
+trafficenv/
+.venv/
+venv/
+
+# --- Requirements dump  ---
+all-files.txt
+
+# --- Git stuff ---
+.git/
+.gitignore
+.git/filter-repo/
+
+# --- Large files & model checkpoints ---
+*.zip
+*.tar.gz
+*.h5
+*.pkl
+*.pt
+*.ckpt
+
+# --- Dataset folders  ---
+lisa_dataset/
+gtrsb_dataset/StopSign/
+gtrsb_dataset/YieldSign/
+datasets/
+processed_dataset/
+raw_dataset/
+
+# --- Notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- Python cache files ---
+__pycache__/
+*.py[cod]
+*.so
+
+# --- Editor settings ---
+.vscode/
+
+# --- Logs and system files ---
+*.log
+.DS_Store
+
+# --- API keys / secrets (never commit these) ---
+kaggle.json
+.env

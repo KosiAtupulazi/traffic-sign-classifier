@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 
-API_URL = "http://localhost:8000/demo"
+API_URL = "http://fastapi:8000/demo"
 
 st.title("🚦 Traffic Sign Demo UI")
 
